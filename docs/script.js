@@ -5,11 +5,12 @@ function onClick() {
     let value = input.value;
 
     if (value === "książka") {
-        window.location.replace("");
+        window.location.replace("rozdzial/");
         return;
     } else if (value === "hubipedia"){
-        window.location.replace("natalka/")
+        window.location.replace("hubipedia/")
     }
 }
+
 
 button.addEventListener("click", onClick)
